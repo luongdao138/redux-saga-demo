@@ -1,0 +1,16 @@
+.container {
+  .search_input {
+    margin-bottom: 1.5rem;
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    transition: all 0.25s ease-in-out;
+    width: 100%;
+
+    &:focus {
+      border-color: #549ff8;
+    }
+  }
+}
